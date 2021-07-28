@@ -1,19 +1,10 @@
 ---
-title: Berkenalan dengan OCaml
----
-
-
----
-
 title:  Berkenalan dengan OCaml
-
+created: 28-07-2021
+update: -
 ---
-
-  
 
 # 1. Berkenalan dengan OCaml
-
-  
 
 OCaml merupakan singkatan dari *Objective Categorial Abstract Machine Language*, sebuah bahasa pemrograman serba guna dan mendukung variasi paradigma (seperti, Imperatif, Berbasis-Objek dan Fungsional).
 
@@ -34,6 +25,8 @@ Seiring perkembangan dan penambahan fitur pada tahun 2010, Caml Special Light be
 
 
 ## Bagaimana rupanya?
+
+OCaml dapat di coba tanpa memasang kompiler secara online di [TryOCamlPro](https://try.ocamlpro.com/).
 
 - Mencetak ke Konsol
 	```ocaml

@@ -18,6 +18,9 @@ Terinspirasi oleh:
 - OCaml
   - [01. Berkenalan dengan OCaml](ocaml/[01]-berkenalan-dengan-ocaml.md)
 
+
+## Kontribusi 
+
 #### Standarisasi Penulisan
 
 - Tambahkan materi secara terurut dan terstruktur.
