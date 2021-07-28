@@ -15,7 +15,8 @@ Terinspirasi oleh:
 
 ## Daftar Isi Bahasa
 
-- [X] kosong
+- OCaml
+  - [01. Berkenalan dengan OCaml](ocaml/[01]-berkenalan-dengan-ocaml.md)
 
 #### Standarisasi Penulisan
 
