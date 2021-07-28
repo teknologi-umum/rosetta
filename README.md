@@ -9,6 +9,9 @@ dan karena prasasti tersebut manusia abad ke-20 bisa menerjemahkan aksara Hireog
 Prinsip prasasti rosetta kemudian kami adopsi untuk membantu sobat sekalian untuk memahami
 bahasa pemrograman.
 
+Terinspirasi oleh:
+ - [Pasuruan Dev](https://github.com/pasuruandev/bahasa-pemrograman)
+ - [Golang, Banyuwangi Dev](https://github.com/pasuruandev/bahasa-pemrograman)
 
 ## Daftar Isi Bahasa
 
