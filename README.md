@@ -26,7 +26,7 @@ Terinspirasi oleh:
 - Letakkan tutorial di folder dan tempat yang tepat:
   - misal : `/ruby/[01]-pengenalan_ruby.md`
 - Tambahkan ke daftar isi agar mudah dicari, contohnya pada bagian **"Bahasa yang tersedia"** diatas.
-- Akan lebih baik bila menggunakan format, seperti ini
+- Akan lebih baik bila menggunakan format pesan *commit*, seperti ini
   - `[kata kerja]([bahasa]): [Pesan]`
   - `add(OCaml): menambahkan 04.Pattern Matching`
   - `remove(Javascript): menghapus bagian X di 03. Installasi Javascript`
