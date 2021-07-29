@@ -17,7 +17,8 @@ Terinspirasi oleh:
 
 - OCaml
   - [01. Berkenalan dengan OCaml](ocaml/[01]-berkenalan-dengan-ocaml.md)
-
+- Rust
+  - [01. Pengenalan Rust](rust/[01]-pengenalan-rust.md)
 
 ## Kontribusi 
 
