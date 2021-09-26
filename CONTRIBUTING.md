@@ -8,7 +8,8 @@
   - `[01]-pengenalan_ruby.md`
 - Letakkan tutorial di folder dan tempat yang tepat:
   - misal : `/ruby/[01]-pengenalan_ruby.md`
-- Tambahkan ke daftar isi agar mudah dicari, contohnya pada bagian **"Bahasa yang tersedia"** diatas.
+- Tambahkan ke daftar isi agar mudah dicari pada berkas **README.md** , contohnya pada bagian **"Bahasa yang tersedia"** diatas.
+- Tambahkan `main/[bahasa]/[0<nomor urut>]-[judul].md` ke [consume.json](./consume.json), jika kamu menambah topik baru pada bahasa/bahasa baru, nomor id berisi nomor urut dan susun sesuai nomor id.
 - Akan lebih baik bila menggunakan format pesan *commit*, seperti ini
   - `[kata kerja]([bahasa]): [Pesan]`
   - `add(OCaml): menambahkan 04.Pattern Matching`
