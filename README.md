@@ -21,9 +21,15 @@ Terinspirasi oleh:
   - [01. Pengenalan Rust](rust/[01]-pengenalan-rust.md)
 
 
-## Bagaimana jika saya ingin menambahkan sesuatu ?
+## FAQ
+
+### Bagaimana jika saya ingin menambahkan sesuatu ?
 
 [Klik disini](./CONTRIBUTING.md)
+
+### Bagaimana menggunakan rosseta sebagai Service ?
+
+[Klik disini](./SERVICE.md)
 
 ## Lisensi
 
