@@ -1,0 +1,14 @@
+{
+  "rust": [
+    {
+      "id": 1,
+      "url": "main/rust/[01]-pengenalan-rust.md"
+    }
+  ],
+  "ocaml": [
+    {
+      "id": 1,
+      "url": "main/ocaml/[01]-berkenalan-dengan-ocaml.md"
+    }
+  ]
+}
