@@ -33,3 +33,8 @@
 - Tambahkan apa yang ingin Anda lakukan
 - _Commit_
 - _New Pull Request_
+
+
+#### Lisensi 
+
+Kontribusi yang masuk akan berada dalam naungan MIT License.
