@@ -31,6 +31,10 @@ Terinspirasi oleh:
 
 [Klik disini](./SERVICE.md)
 
+### Bingung mau nambahin apa ?
+
+[Mari lihat daftar isu](https://github.com/teknologi-umum/rosetta/issues)
+
 ## Lisensi
 
 [MIT](./LICENSE)
