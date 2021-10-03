@@ -10,5 +10,11 @@
       "id": 1,
       "url": "main/ocaml/[01]-berkenalan-dengan-ocaml.md"
     }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "url": "main/javascript/[01]-pengenalan-javascript.md"
+    }
   ]
 }

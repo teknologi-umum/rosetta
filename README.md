@@ -19,6 +19,8 @@ Terinspirasi oleh:
   - [01. Berkenalan dengan OCaml](ocaml/[01]-berkenalan-dengan-ocaml.md)
 - Rust
   - [01. Pengenalan Rust](rust/[01]-pengenalan-rust.md)
+- Javascript
+  - [01. Pengenalan Javascript](javascript/[01]-pengenalan-javascript.md)
 
 
 ## FAQ
