@@ -16,5 +16,11 @@
       "id": 1,
       "url": "main/javascript/[01]-pengenalan-javascript.md"
     }
+  ],
+  "python": [
+    {
+      "id": 1,
+      "url": "main/python/[01]-pengenalan-python.md"
+    }
   ]
 }
