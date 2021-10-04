@@ -1,6 +1,6 @@
 ## Rosetta
 
-Selamat datang sobat *Bliding Ej* di Rosetta, Kumpulan pengantar pelbagai bahasa pemrograman.
+Selamat datang sobat _Bliding Ej_ di Rosetta, Kumpulan pengantar pelbagai bahasa pemrograman.
 
 Nama Rosetta diambil dari filosofi prasasti Rosetta, kala itu (Tahun 196 sebelum masehi)
 Dinasti Ptolemaik menulis sebuah kebijakan dalam tiga aksara (Hireoglif, Demotik dan Yunani)
@@ -10,8 +10,9 @@ Prinsip prasasti rosetta kemudian kami adopsi untuk membantu sobat sekalian untu
 bahasa pemrograman.
 
 Terinspirasi oleh:
- - [Pasuruan Dev](https://github.com/pasuruandev/bahasa-pemrograman)
- - [Golang, Banyuwangi Dev](https://github.com/pasuruandev/bahasa-pemrograman)
+
+- [Pasuruan Dev](https://github.com/pasuruandev/bahasa-pemrograman)
+- [Golang, Banyuwangi Dev](https://github.com/pasuruandev/bahasa-pemrograman)
 
 ## Daftar Isi Bahasa
 
@@ -21,7 +22,8 @@ Terinspirasi oleh:
   - [01. Pengenalan Rust](rust/[01]-pengenalan-rust.md)
 - Javascript
   - [01. Pengenalan Javascript](javascript/[01]-pengenalan-javascript.md)
-
+- Python
+  - [01. Pengenalan Python](python/[01]-pengenalan-python.md)
 
 ## FAQ
 
