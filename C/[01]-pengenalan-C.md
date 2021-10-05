@@ -33,7 +33,7 @@ namun masih digunakan hingga saat ini.
       return 0;
   }
   ```
-- deklarasi variabel
+- Deklarasi Variabel
   ```C
   char name[] = "bryan"; //tipe data yang huruf
   int umur = 20;         //tipe data yang berupa angka
