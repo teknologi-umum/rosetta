@@ -75,8 +75,8 @@ namun masih digunakan hingga saat ini.
   }
 
   void main(){
-  // memanggil fungsi say_hello()
-  say_hello();
+      // memanggil fungsi say_hello()
+      say_hello();
   }
   ```
 
