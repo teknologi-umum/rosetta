@@ -70,8 +70,8 @@ namun masih digunakan hingga saat ini.
   ```
 - Fungsi
   ```c
-  void say_hello(){
-  printf("Hello Selamat Datang!\n");
+  void say_hello() {
+      printf("Hello Selamat Datang!\n");
   }
 
   void main(){
