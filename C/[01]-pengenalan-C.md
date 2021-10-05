@@ -25,7 +25,7 @@ namun masih digunakan hingga saat ini.
 
 
 ## Seperti apa kode C ?
-- mengeluarkan output
+- Mengeluarkan Output
   ```C
   #include <stdio.h>
     int main(void) {
