@@ -4,7 +4,7 @@ created: 05-10-2021
 update: -
 ---
 # 1. Berkenalan dengan C
-Bahasa Pemrograman C adalah sebuah bahasa pemrograman komputer yang bisa digunakan untuk membuat berbagai aplikasi (general-purpose programming language), 
+Bahasa pemrograman C adalah sebuah bahasa pemrograman komputer yang bisa digunakan untuk membuat berbagai aplikasi (general-purpose programming language), 
 mulai dari sistem operasi (seperti Windows atau Linux), antivirus, software pengolah gambar (image processing), hingga compiler untuk bahasa pemrograman, 
 dimana C banyak digunakan untuk membuat bahasa pemrograman lain yang salah satunya adalah PHP.
 
