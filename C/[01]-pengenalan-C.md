@@ -18,7 +18,7 @@ yang akhirnya di lengkapi oleh bahasa pemrograman C. Dengan bahasa C inilah sist
 sistem operasi modern saat ini, termasuk Linux, Mac OS (iOS), hingga sistem operasi Android.
 
 ## God’s programming language
-Bahasa C juga dijuluki sebagai “God’s programming language” Karena banyak menginspirasi bahasa-bahasa pemrograman yang lain seperti Java, Javascript, C++, C#, PHP, dsb.
+Bahasa C juga dijuluki sebagai “God’s programming language” karena banyak menginspirasi bahasa-bahasa pemrograman yang lain seperti Java, Javascript, C++, C#, PHP, dsb.
 Bahasa C memang bagus untuk memperkenalkan konsep pemrograman bagi pemula yang belum pernah coding, Usia bahasa pemrograman C memang cukup tua, 
 namun masih digunakan hingga saat ini.
 
