@@ -22,5 +22,11 @@
       "id": 1,
       "url": "main/python/[01]-pengenalan-python.md"
     }
+  ],
+  "haskell": [
+    {
+      "id": 1,
+      "url": "main/haskell/[01]-pengantar-haskell.md"
+    }
   ]
 }
