@@ -12,13 +12,13 @@ GHC (9.0.1).
 
 ## 1.1 Fitur
 
-Setiap bahasa memiliki kelebihanya tersendiri, bukan ? maka berikut ini fitur yang haskell tawarkan kepada kamu.
+Setiap bahasa memiliki kelebihanya tersendiri, bukan? maka berikut ini fitur yang Haskell tawarkan kepada kamu.
 
 ### Tipe Statis
 
-Haskell menindak bagian program sebagai ekspresi dan setiap ekspresi memiliki tipe yang menentukan jenis data apa yang bisa diterima. Tipe statis menahan perubahan tipe data dari suatu ekpresi untuk menjaga kekonsitenan bentuk ekpresi.
+Haskell menindak bagian program sebagai ekspresi dan setiap ekspresi memiliki tipe yang menentukan jenis data apa yang bisa diterima. Tipe statis menahan perubahan tipe data dari suatu ekpresi untuk menjaga kekonsistenan bentuk ekspresi.
 
-Rupa tipe statis pada haskell dan javascript :
+Rupa tipe statis pada Haskell dan Javascript :
 
 - Haskell
 
@@ -64,11 +64,11 @@ Haskell memiliki dukungan penuh terhadap paradigma ini.
 
 ### Evaluasi Malas 
 
-Haskell tidak akan menjalankan sebuah ekspresi yang tidak mengeluarkan efek samping seperti menampilkan sesuatu atau berurusan dengan Input/Output, pendekatan ini memberikan penghematan performa yang bagus karena tidak mengompile bagian yang tidak memiliki efek namun sulit untuk memprediksi benchmark dari sebuah program.
+Haskell tidak akan menjalankan sebuah ekspresi yang tidak mengeluarkan efek samping seperti menampilkan sesuatu atau berurusan dengan Input/Output, pendekatan ini memberikan penghematan performa yang bagus karena tidak men-compile bagian yang tidak memiliki efek namun sulit untuk memprediksi benchmark dari sebuah program.
 
 ## 1.2 Kasus Guna 
 
-Haskell bukan bahasa populer namun bukan berarti tidak memiliki implementasi pada kasus tertentu. Haskell banyak digunakan untuk menuliskan rumus ilmiah, membangun kompilator dan beurursan dengan aplikasi bisnis tertentu (seperti Web API server dan semacamnya).
+Haskell bukan bahasa populer namun bukan berarti tidak memiliki implementasi pada kasus tertentu. Haskell banyak digunakan untuk menuliskan rumus ilmiah, membangun kompilator dan berurursan dengan aplikasi bisnis tertentu (seperti Web API server dan semacamnya).
 
 - [Elm](https://elm-lang.org) merupakan salah satu bahasa pemrograman yang kompilatornya dibangun menggunakan Haskell.
 
@@ -76,7 +76,7 @@ Haskell bukan bahasa populer namun bukan berarti tidak memiliki implementasi pad
 
 ## 1.3 Referensi Belajar
 
-Kamu tertarik untuk belajar haskell maka kamu datang dijalan yang benar. Selain repositori ini, kamu bisa mempelajari haskell melalui referensi berikut:
+Kamu tertarik untuk belajar Haskell maka kamu datang dijalan yang benar. Selain repositori ini, kamu bisa mempelajari haskell melalui referensi berikut:
 
 - [Awesome-like untuk Pemrograman Fungsional](https://github.com/artileda/pemrograman-fungsional)
 - [1. Pengantar Haskell | Seri Haskell - Idiosemantik](https://www.youtube.com/watch?v=BSWoegYLC3E)
