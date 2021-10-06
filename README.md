@@ -25,7 +25,7 @@ Terinspirasi oleh:
 - Python
   - [01. Pengenalan Python](python/[01]-pengenalan-python.md)
 - C
-  - [01. Pengenalan C](python/[01]-pengenalan-C.md)
+  - [01. Pengenalan C](C/[01]-pengenalan-C.md)
 
 ## FAQ
 
