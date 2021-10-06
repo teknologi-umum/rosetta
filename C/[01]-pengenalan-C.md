@@ -64,7 +64,7 @@ namun masih digunakan hingga saat ini.
   ```
 - Perulangan
   ```C
-  for(int i = 0; i < 10; i++){
+  for (int i = 0; i < 10; i++) {
        printf("Perulangan ke-%i\n", i);
   }
   ```
