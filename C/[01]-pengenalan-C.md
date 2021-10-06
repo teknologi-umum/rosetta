@@ -11,7 +11,7 @@ dimana C banyak digunakan untuk membuat bahasa pemrograman lain yang salah satun
 ## Sejarah C
 Bahasa pemrograman C dibuat pertama kali oleh Dennis M. Ritchie pada tahun 1972. Saat itu Ritchie bekerja di Bell Labs, sebuah pusat penelitian yang berlokasi di Murray Hill, 
 New Jersey, Amerika Serikat. Ritchie membuat bahasa pemrograman C untuk mengembangkan sistem operasi UNIX. Sebelumnya, sistem operasi UNIX dibuat menggunakan 
-bahasa assembly. Akan tetapi bahasa assembly sendiri sangat rumit dan susah untuk dikembangkan.
+bahasa Assembly. Akan tetapi bahasa Assembly sendiri sangat rumit dan susah untuk dikembangkan.
 
 Dengan tujuan mengganti bahasa assembly, peneliti di Bell Labs membuat bahasa pemrograman B. Namun bahasa pemrograman B juga memiliki beberapa kekurangan, 
 yang akhirnya di lengkapi oleh bahasa pemrograman C. Dengan bahasa C inilah sistem operasi UNIX ditulis ulang. Pada gilirannya, UNIX menjadi dasar dari banyak 
