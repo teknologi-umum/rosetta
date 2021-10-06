@@ -1,6 +1,6 @@
 ---
 title: Berkenalan Dengan Bahasa Pemrograman C
-created: 05-10-2021
+created: 06-10-2021
 update: -
 ---
 # 1. Berkenalan dengan C
@@ -11,11 +11,11 @@ dimana C banyak digunakan untuk membuat bahasa pemrograman lain yang salah satun
 ## Sejarah C
 Bahasa pemrograman C dibuat pertama kali oleh Dennis M. Ritchie pada tahun 1972. Saat itu Ritchie bekerja di Bell Labs, sebuah pusat penelitian yang berlokasi di Murray Hill, 
 New Jersey, Amerika Serikat. Ritchie membuat bahasa pemrograman C untuk mengembangkan sistem operasi UNIX. Sebelumnya, sistem operasi UNIX dibuat menggunakan 
-bahasa assembly (assembly language). Akan tetapi bahasa assembly sendiri sangat rumit dan susah untuk dikembangkan.
+bahasa assembly. Akan tetapi bahasa assembly sendiri sangat rumit dan susah untuk dikembangkan.
 
 Dengan tujuan mengganti bahasa assembly, peneliti di Bell Labs membuat bahasa pemrograman B. Namun bahasa pemrograman B juga memiliki beberapa kekurangan, 
 yang akhirnya di lengkapi oleh bahasa pemrograman C. Dengan bahasa C inilah sistem operasi UNIX ditulis ulang. Pada gilirannya, UNIX menjadi dasar dari banyak 
-sistem operasi modern saat ini, termasuk Linux, Mac OS (iOS), hingga sistem operasi Android.
+sistem operasi modern saat ini, termasuk Linux, Mac OS, iOS, hingga sistem operasi Android.
 
 ## God’s programming language
 Bahasa C juga dijuluki sebagai “God’s programming language” karena banyak menginspirasi bahasa-bahasa pemrograman yang lain seperti Java, Javascript, C++, C#, PHP, dsb.
@@ -35,7 +35,7 @@ namun masih digunakan hingga saat ini.
   ```
 - Deklarasi Variabel
   ```C
-  char name[] = "bryan"; //tipe data yang huruf
+  char name[] = "bryan"; //tipe data yang karakter
   int umur = 20;         //tipe data yang berupa angka
   float berat = 46.7;    //tipe data yang berupa bilangan pecahan
   double tinggi = 170.43;//sama seperti float, namun double memiliki ukuran penyimpanan yang lebih besar
@@ -62,14 +62,31 @@ namun masih digunakan hingga saat ini.
     printf("Maaf, format nilai tidak sesuai \n");
   }
   ```
-- Perulangan
+- Perulangan IF ELSE
   ```C
   for (int i = 0; i < 10; i++) {
        printf("Perulangan ke-%i\n", i);
   }
   ```
+- Perulangan WHILE
+  ```C
+  int i = 1;
+  while (i <= 5){
+    printf("Hello World \n");
+    i++;
+  }
+  ```
+- Perulangan DO WHILE
+  ```C
+  int i = 1;
+  do {
+    printf("Hello World \n");
+    i++;
+  }
+  while (i <= 5);
+  ```
 - Fungsi
-  ```c
+  ```C
   void say_hello() {
       printf("Hello Selamat Datang!\n");
   }
@@ -79,6 +96,11 @@ namun masih digunakan hingga saat ini.
       say_hello();
   }
   ```
+
+## Paradigma C
+
+Bahasa C menggunakan paradigma procedural programming, dimana untuk menulis program yang kompleks, kode akan dipecah menjadi fungsi-fungsi yang saling terpisah untuk kemudian disatukan di dalam kode program utama. Keunggulan dari procedural programming adalah mudah dipelajari. Namun ketika masuk ke aplikasi yang kompleks, pengelolaan kode program akan menjadi kendala utama.
+Misalnya jika kita mendefinisikan variabel bernama luas_lingkaran di satu tempat, maka variabel yang sama tidak bisa di tulis di tempat lain.
 
 ## Bahasa C Untuk Pemula
 Seperti yang disebutkan sebelumnya, beberapa basis dari bahasa pemrograman ini digunakan pada beberapa jenis bahasa pemrograman yang baru.
