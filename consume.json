@@ -26,5 +26,17 @@
       "id": 2,
       "url": "main/python/[02]-instalasi-python.md"
     }
+  ],
+  "C": [
+    {
+      "id": 1,
+      "url": "main/C/[01]-pengenalan-C.md"
+    }
+  ],
+  "haskell": [
+    {
+      "id": 1,
+      "url": "main/haskell/[01]-pengantar-haskell.md"
+    }
   ]
 }
