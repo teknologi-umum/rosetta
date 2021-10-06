@@ -25,7 +25,7 @@ Terinspirasi oleh:
 - Python
   - [01. Pengenalan Python](python/[01]-pengenalan-python.md)
 - Haskell
-  - [01. Pengantar Haskell](python/[01]-pengantar-haskell.md)
+  - [01. Pengantar Haskell](haskell/[01]-pengantar-haskell.md)
 
 ## FAQ
 
