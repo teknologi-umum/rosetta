@@ -6,7 +6,7 @@ update: -
 
 # 2. Instalasi Python
 
-Python adalah sebuah bahasa interpreted yang secara default telah terinstall di sistem operasi Linux. Khusus pengguna Windows, sebelum dapat menjalankan program Python perlu melakukan instalasi terlebih dahulu pada perangkat. Pada bab ini, akan dibahas mengenai tahapan instalasi Python khusus bagi pengguna Windows. 
+Python adalah sebuah bahasa interpreted yang secara default telah terinstall di sistem operasi Linux. Khusus pengguna Windows, sebelum dapat menjalankan program Python perlu melakukan instalasi terlebih dahulu. Pada bab ini, akan dibahas mengenai tahapan instalasi Python khusus bagi pengguna Windows. 
 
 ### a. Mengunduh Python
 Bahasa Python diunduh dari situs resminya [python.org](https://www.python.org/). Langkah untuk mengunduhnya cukup taruh mouse pada bagian atas tulisan Downloads nanti akan muncul menu downloads. Klik pada bagian downloads Python 3.10.0. Versi tersebut telah disesuaikan dengan perangkat pengguna sehingga instalasi dapat dilakukan dengan mudah.
