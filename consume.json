@@ -21,6 +21,10 @@
     {
       "id": 1,
       "url": "main/python/[01]-pengenalan-python.md"
+    },
+    {
+      "id": 2,
+      "url": "main/python/[02]-instalasi-python.md"
     }
   ]
 }
