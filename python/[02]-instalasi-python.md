@@ -6,16 +6,16 @@ update: -
 
 # 2. Instalasi Python
 
-Python adalah sebuah bahasa interpreted. Berbeda dengan bahasa interpreted seperti JavaScript. Sebelum mulai menggunakan Python, diperlukan instalasi terlebih dahulu pada perangkat yang digunakan. Pada bab ini, akan dibahas mengenai tahapan instalasi Python. 
+Python adalah sebuah bahasa interpreted yang secara default telah terinstall di sistem operasi Linux. Khusus pengguna Windows, sebelum dapat menjalankan program Python perlu melakukan instalasi terlebih dahulu pada perangkat. Pada bab ini, akan dibahas mengenai tahapan instalasi Python khusus bagi pengguna Windows. 
 
-## a. Mengunduh Python
+### a. Mengunduh Python
 Bahasa Python diunduh dari situs resminya [python.org](https://www.python.org/). Langkah untuk mengunduhnya cukup taruh mouse pada bagian atas tulisan Downloads nanti akan muncul menu downloads. Klik pada bagian downloads Python 3.10.0. Versi tersebut telah disesuaikan dengan perangkat pengguna sehingga instalasi dapat dilakukan dengan mudah.
 
 <p align='center'>
   <img align="center"src="https://user-images.githubusercontent.com/71202864/136140820-7a7c55ab-8ed6-46b3-b504-a75741055d06.png">
 </p>
 
-## b. Instalasi pada komputer
+### b. Instalasi pada komputer
 Khusus pengguna windows, pengguna cukup menjalankan program seperti program pada umumnya.Pada menu instalasi, pastikan menambahkan Python 3.10 ke PATH seperti yang ditunjukkan gambar di bawah ini. Hal ini supaya Python secara otomatis terpanggil ketika dijalankan di command line (CMD).
 
 <p align='center'>
@@ -28,21 +28,21 @@ Setelah semua siap, lanjutkan dengan mengklik tombol `Install Now` dan proses in
   <img align="center"src="https://user-images.githubusercontent.com/71202864/136140888-4c84653c-8ee6-43ff-b64f-36a56721cbe3.png">
 </p>
 
-## c. Menjalankan Python
+### c. Menjalankan Python
 Untuk menjalankan Python melalui CMD kita cukup mengetikkan `py` atau `python` pada CMD. 
 
 <p align='center'>
   <img align="center"src="https://user-images.githubusercontent.com/71202864/136140902-618cd8b3-fb18-48d7-9e36-b9b7e5057400.png">
 </p>
 
-## d. Menguji bahasa Python
+### d. Menguji bahasa Python
 Ketika menjalankan Python melalui CMD berarti kita sedang menjalankan program ini di Python environment. Artinya, program yang kita jalankan secara otomatis akan muncul outputnya. 
 
 <p align='center'>
   <img align="center"src="https://user-images.githubusercontent.com/71202864/136141196-d1c2aa79-dca3-4797-919f-05873361da5f.png">
 </p>
 
-## e. Integrasi dengan VSCode
+### e. Integrasi dengan VSCode
 Terdapat banyak text editor yang dapat digunakan untuk menuliskan bahasa Python, tetapi contoh berikut ini akan menggunakan VSCode karena memiliki banyak fitur yang sangat membantu. VSCode dapat diunduh dari situs resminya [Visual Studio Code](https://code.visualstudio.com/download). Ketika sudah masuk ke dalam VSCode masuk ke bagian extension kemudian cari Python, pada pilihan pertama yang muncul klik tombol install
 
 <p align='center'>
