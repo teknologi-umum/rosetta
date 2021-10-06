@@ -107,7 +107,7 @@ Seperti yang disebutkan sebelumnya, beberapa basis dari bahasa pemrograman ini d
 Dengan kata lain, saat kita mempelajari bahasa pemrograman C dan menguasainya, secara tidak langsung kita juga mempelajari dasar-dasar dari bahasa pemrograman lainnya. 
 Secara mendasar, dengan mengetahui bahasa pemrograman C, kita akan mendapatkan sebuah tiket untuk mengetahui hampir seluruh bahasa pemrograman.
 
-Terdapat beberapa kegunaan dari bahasa ini. Termasuk di dalamnya, bahasa ini awalnya dibangun agar dapat digunakan untuk mengembangkan perangkat lunak sistem.
+Terdapat beberapa kegunaan dari bahasa ini. Termasuk di dalamnya, bahasa ini awalnya dibangun agar dapat digunakan untuk mengembangkan sistem perangkat lunak. 
 Idealnya, bahasa pemrograman C dapat digunakan untuk membangun firmware maupun aplikasi portabel. Selain itu, bahasa pemrograman C dapat digunakan untuk 
 mengembangkan sistem operasi ataupun sistem yang berhubungan dengan perangkat keras.
 
