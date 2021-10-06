@@ -24,6 +24,7 @@ Terinspirasi oleh:
   - [01. Pengenalan Javascript](javascript/[01]-pengenalan-javascript.md)
 - Python
   - [01. Pengenalan Python](python/[01]-pengenalan-python.md)
+  - [02. Instalasi Python](python/[02]-instalasi-python.md)
 
 ## FAQ
 
