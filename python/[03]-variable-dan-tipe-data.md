@@ -24,7 +24,7 @@ Sebelum masuk ke bagian yang lebih dalam, terdapat beberapa hal yang perlu menja
 #### i. Single Line Comment
 > Janis komentar ini menggunakan tanda `#` untuk memberikan komentar perbaris
 
-```shell
+```python
     # Baris pertama komentar
     # Baris kedua komentar
 ```
@@ -32,7 +32,7 @@ Sebelum masuk ke bagian yang lebih dalam, terdapat beberapa hal yang perlu menja
 #### ii. Multiline Comment
 > Jenis komentar ini menggunakan tanda `"` sebanyak tiga kali untuk memberikan komentar beberapa baris sekaligus
 
-```shell
+```python
 """Semua tulisan ini tidak
 akan dijalankan oleh Python
 karena termasuk ke dalam 
@@ -48,7 +48,7 @@ disebut sebagai *primitive data*. Tipe data primitif ini terdiri dari string, nu
 ### A. Tipe Data String (Teks)
 Tipe data string atau teks adalah tipe data yang digunakan untuk menyimpan suatu teks. Tipe data jenis ini diapit oleh tanda petik baik petik satu `('')` maupun petik dua `("")`. 
 
-```shell
+```python
 'Namaku Anna'
 "Ayahku seorang pebisnis"
 ```
@@ -61,7 +61,7 @@ Tipe data number atau angka adalah tipe data yang digunakan untuk menyimpan suat
 #### i. Integer
 Tipe data jenis ini merupakan tipe data yang merujuk angka dalam bilangan bulat.
 
-```shell
+```python
 # Berikut contoh angka integer
 10
 100
@@ -71,7 +71,7 @@ Tipe data jenis ini merupakan tipe data yang merujuk angka dalam bilangan bulat.
 #### ii. Float
 Tipe data jenis ini merupakan tipe data yang merujuk angka dalam pecahan/desimal.
 
-```shell
+```python
 # Berikut contoh angka float
 2.5
 7.5
@@ -81,7 +81,7 @@ Tipe data jenis ini merupakan tipe data yang merujuk angka dalam pecahan/desimal
 #### iii. Complex
 Tipe data jenis ini merupakan tipe data yang merujuk pada nilai imajiner
 
-```shell
+```python
 # Berikut contoh angka complex
 
 15x + 10x = 25x
@@ -90,14 +90,14 @@ Tipe data jenis ini merupakan tipe data yang merujuk pada nilai imajiner
 ### C. Tipe Data Boolean
 Tipe data ini adalah tipe data yang hanya terdiri dari dua buah nilai `True` dan `False`. Nilai `True` berarti benar dan `False` berarti salah. Meskipun hanya terdiri dari dua buah nilai tipe data ini sangat pentinga dalam membuat program dalam segala ukuran, baik kecil maupun besar.
 
-```shell
+```python
 saya_manusia = True
 
 print("Apakah anda seorang manusia?", saya_manusia)
 ```
 Tipe data boolean sering dikaitkan dengan `operator logika` yang mana pembahasan terhadap hal tersebut tidak dibahas pada materi ini. Tetapi sebagai referensi dapat mengakses halaman [wikipedia](https://id.wikipedia.org/wiki/Operator_logika). Dari operator logika inilah terbentuklah program yang kompleks seperti menggunakan if else.
 
-```shell
+```python
 umur = 18
 
 if umur >= 17:
@@ -113,14 +113,14 @@ Setelah memahami konsep tipe data, kita akan membahas suatu variable. Untuk memu
 ### A. Bagaimana Membuat Suatu Variable?
 Python sangat memudahkan penggunanya dalam menuliskan variable. Cukup dengan menuliskan penamaan untuk variable lalu diikuti nilai yang hendak disimpan, contoh sebagai berikut.
 
-```shell
+```python
 nama = 'Handhika Yanuar Pratama'
 usia = 24.5
 punya_pacar = False
 ```
 Pada contoh di atas kita telah menyimpan beberapa data ke dalam tiga buah variable, untuk memanggilnya, cukup menyisipkannya dalam script yang hendak dibuat.
 
-```shell
+```python
 print("Nama saya:", nama)
 print("Umur saya:", usia)
 print("Saya sudah punya pacar:", punya_pacar)
@@ -143,7 +143,7 @@ Python memiliki aturan dalam memberikan penulisan variable, antara lain:
 ### C. Bagaimana Menyimpan Data Pada Variable?
 Untuk menyimpan data pada suatu variable terdapat dua buah cara baik secara single maupun multiple. Penyimpanan secara single artinya menyimpan suatu data pada sebuah variable saja. Sedangkan penyimpanan secara multiple artinya menyimpan beberapa data sekaligus ke dalam variable. 
 
-```shell
+```python
 # Contoh penyimpanan single
 a = 10
 nama = 'Vega'
@@ -154,14 +154,14 @@ x, y, z = 10, 2.5, 'Lin'
 
 Selain dua hal tersebut, pada Python juga mendukung penyimpanan suatu nilai yang sama untuk beberapa variable dengan syntax sebagai berikut
 
-```shell
+```python
 a = b = c = d = 20
 ```
 
 ### D. Bagaimana Mengetahui Tipe Data Suatu Variable?
 Setelah paham konsep tipe data dan variable. Tentu pertanyaan ini sering muncul, pada bahasa Python, jawaban dari pertanyaan ini cukup sederhana yaitu menggunakan perintah `type(nama_variable)`. 
 
-```shell
+```python
 buah = 'apple'
 jumlah = 5
 
@@ -170,7 +170,7 @@ type(jumlah)
 ```
 
 Maka output dari perintah tersebut yaitu
-```shell
+```python
 <type 'str'>
 <type 'int'>
 ```
