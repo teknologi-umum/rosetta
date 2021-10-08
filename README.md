@@ -25,6 +25,7 @@ Terinspirasi oleh:
 - Python
   - [01. Pengenalan Python](python/[01]-pengenalan-python.md)
   - [02. Instalasi Python](python/[02]-instalasi-python.md)
+  - [03. Variable dan Tipe Data](python/[03]-variable-dan-tipe-data.md)
 - C
   - [01. Pengenalan C](C/[01]-pengenalan-C.md)
 - Haskell
