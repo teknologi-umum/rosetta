@@ -15,6 +15,10 @@
     {
       "id": 1,
       "url": "main/javascript/[01]-pengenalan-javascript.md"
+    },
+    {
+      "id": 2,
+      "url": "main/javascript/[02]-variabel-operator-javascript.md"
     }
   ],
   "python": [

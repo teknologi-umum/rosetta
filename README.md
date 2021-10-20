@@ -22,6 +22,7 @@ Terinspirasi oleh:
   - [01. Pengenalan Rust](rust/[01]-pengenalan-rust.md)
 - Javascript
   - [01. Pengenalan Javascript](javascript/[01]-pengenalan-javascript.md)
+  - [02. Variabel dan Operator Javascript](javascript/[[02]-variabe-operator-javascript.md])
 - Python
   - [01. Pengenalan Python](python/[01]-pengenalan-python.md)
   - [02. Instalasi Python](python/[02]-instalasi-python.md)
