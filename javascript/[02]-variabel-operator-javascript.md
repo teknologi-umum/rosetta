@@ -34,7 +34,7 @@ var merupakan sebuah kalimat yang kita gunakan untuk mendeklarasikan sebuah vari
   Jika kita mendeklarasikan sebuah variable pada javascript maka yang terjadi adalah javascript mengangkat semua variable keatas kemudian mengeksekusinya. Meskipun anda menempatkan variable diakhir baris kode maka javascript akan tetap mengangkat variable keatas sebelum mengeksekusinya.
   ```javascript
     hallo = "hello world" // mengisi variable hallo 
-    console.log(hallo); // menampilkan variable hallo
+    console.log(hallo) // menampilkan variable hallo
     var hallo // variable hallo akan diangkat keatas sebelum dieksekusi
   ```
 
