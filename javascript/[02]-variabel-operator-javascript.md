@@ -171,7 +171,7 @@ Perlu diketahui saat kita menggunakan 2 tanda sama dengan dengan 3 tanda sama de
 console.log(1 == "1") // true
 console.log(1 === "1") //false
 ```
-Mengapa hal tersebut dapat terjadi saat kita menggunakan operator perbandingan karena di Javascript menggunakan 2 sama dengan kita melakukan komparasi nilainya tanpa mengenal tipe datanya, berbeda saat kita menggunakan 3 sama dengan kita melakukan komparasi nilainya beserta tipe datanya.
+Mengapa hal tersebut dapat terjadi saat kita menggunakan operator perbandingan? Karena di Javascript saat kita menggunakan 2 tanda sama dengan, kita melakukan komparasi nilainya tanpa mengenal tipe datanya, berbeda saat kita menggunakan 3 tanda sama dengan, kita melakukan komparasi nilainya beserta tipe datanya.
 Tidak hanya operator perbandingan equal, menggunakan operator NOT `!` juga hal serupa
 ```javascript
 console.log(1 != "1") //false
