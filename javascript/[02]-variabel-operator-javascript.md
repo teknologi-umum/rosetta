@@ -43,7 +43,7 @@ var merupakan sebuah kalimat yang kita gunakan untuk mendeklarasikan sebuah vari
 let nama = "ahmad"
 let umur = 15
 ```
-Deklarasi variabel let berfungsi sama halnya dengan var tetapi menggunakan let kita dapat mengatasi berbagai masalah yang ada saat menggunakan var, tidak hanya itu scope juga merupakan hal yang penting saat menggunakan let contohnya
+Deklarasi variabel let berfungsi sama halnya dengan var. Tetapi dengan menggunakan let, kita dapat mengatasi berbagai masalah yang ada saat menggunakan var. Tidak hanya itu, scope juga merupakan hal yang penting saat menggunakan let, contohnya:
 ```javascript
 let gender = "male"
 
