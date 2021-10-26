@@ -5,7 +5,7 @@ update: 22-10-2021
 ---
 
 # Apa itu variabel
-Variabel sendiri merupakan tempat yang digunakan untuk menyimpan sebuah state atau data, data yang disimpan bisa berupa tipe data string, boolean, integer, dsb. Javascript sendiri merupakan bahasa pemrograman berjenis `typeless` yang artinya satu variabel dapat berisi tipe data apapun.
+Variabel sendiri merupakan tempat yang digunakan untuk menyimpan sebuah state atau data, data yang disimpan bisa berupa tipe data string, boolean, integer, dsb. Javascript sendiri merupakan bahasa pemrograman berjenis `untype` yang artinya satu variabel dapat berisi tipe data apapun.
 
 ## Deklarasi Variabel
 Deklarasi variabel di Javascript memiliki berbagai cara seperti : 
@@ -16,12 +16,12 @@ var umur = 12
 ```
 var merupakan sebuah kalimat yang kita gunakan untuk mendeklarasikan sebuah variabel global, sebelum adanya fitur ES6 pada javascript deklarasi var sendiri memiliki banyak masalah seperti :
 - Variabel global
-  Variabel global memiliki cenderung memiliki masalah saat deklarasi maupun tidak dideklarasikan seperti :
+  Variabel global cenderung memiliki masalah saat deklarasi maupun tidak dideklarasikan seperti :
   ```javascript
   mahasiswa = "akbar" // output -> akbar
   //variabel yang tidak diklarasikan
   ```
-  Contoh tersebut tidak menimbulkan error karena javascript menganggap mahasiswa merupakan variabel global sehingga jika program javascript kompleks dapat membuat kita bingung.
+  Contoh tersebut tidak menimbulkan error karena javascript menganggap mahasiswa merupakan variabel global sehingga jika program javascript kompleks dapat membuat kita bingung, di Javascript sendiri global scope pada browser dapat diakses menggunakan kata `window` seperti `window.XMLHttpRequest`, sementara di NodeJS global scope ada di modul NodeJS itu sendiri.
 - Deklarasi ganda
   Ada lagi hal aneh saat kita menggunakan var yaitu deklarasi variabel ganda dengan nama yang sama seperti contoh berikut :
   ```javascript
@@ -77,6 +77,19 @@ const nama = "ahmad" //deklarasi ahmad
 nama = "rafi" //error
 ```
 Dapat dilihat pada potongan kode tersebut saat kita mengganti variabel umur setelah deklarasi maka nilai tersebut berubah hal ini dikarenakan karena kita menggunakan let yang artinya deklarasi tersebut bersifat mutable yang mana nilainya dapat berubah-ubah, berbeda halnya dengan menggunakan const kita tidak bisa merubah nilainya.
+
+const dapat merubah nilai yang bertipe objek
+```javascript
+const a = {}
+a.foo = "bar"
+console.log(a.foo) // output -> bar
+```
+dapat dilihat potongan kode diatas ketika kita deklarasi menggunakan const tetapi nilai didalamnya adalah objek, jika kita mengubah nilai objek tersebut tidak akan membuat program error karena objek didalam javascript sifatnya adalah mutable, berbeda jika kita melakukan hal seperti dibawah.
+```javascript
+const a = {}
+a = {foo: bar} // error
+```
+dapat dilihat ketika kita menghubah nilai dari variabel `a` kita mengubahnya secara langsung melalui variabel bukan objeknya.
 
 
 # Operator
@@ -188,14 +201,18 @@ Operator ini terdiri dari :
 | Logika AND    | `&&`     |
 | Logika OR     | `||`      |
 | Negasi        | `!`      |
+| Nullish Coalescing | `??` |
 
 contoh : 
 ```javascript
 let benar = true
 let salah = false
+let a;
+let b = a ?? "nilai hasil nullish coalescing"
 
 console.log(benar || salah) // true
 console.log(benar && salah) // salah
 console.log(!benar && salah) // true
+console.log(b) // nilai hasil nullish coalescing
 ```
 
