@@ -9,10 +9,7 @@ Pada bab ini akan membahas mengenai Variabel dan Tipe Data pada bahasa C.
 ## Variabel
 - Variabel
 
-Variabel adalah wadah yang digunakan untuk menampung data/value. Bayangkan saja gelas dan susu. Analoginya gelas adalah tempat untuk menampung susu tersebut. 
-Jadi, dalam membuat program, tentu kita sangat membutuhkan variabel. Untuk mengenali variabel tersebut maka harus ada tipe data. 
-Jika kita memilih gelas maka gunakan gelas itu untuk menampung air, tidak mungkin kan gelas untuk menampung nasi. Oleh karena itu dalam implementasi ke dalam 
-bahasa pemrograman juga harus menggunakan tipe data sebagaimana harusnya.
+Variabel adalah wadah yang digunakan untuk menampung data/value. Deklarasi variabel adalah sebuah perintah agar program menyediakan variabel yang akan kita pakai. Pendeklarasian variabel harus diawali dengan tipe data variabel. Namun untuk pembahasan tipe data akan dibahas pada bagian selanjutnya.
 
 Berikut adalah aturan dalam penulisan variabel : **(Perlu Diingat)**
 
@@ -43,12 +40,12 @@ Jadi apa perbedaannya?
 
 a)	Variabel lokal
 
-Variabel lokal adalah variabel yang deklarasinya berada didalam fungsi, misalnya fungsi main. Sehingga variabel tersebut hanya bisa diakses oleh anggota main 
+Variabel lokal adalah variabel yang deklarasinya berada di dalam fungsi, misalnya fungsi main. Sehingga variabel tersebut hanya bisa diakses oleh anggota main 
 itu sendiri.
 
 b)	Variabel global
 
-Variabel global adalah variabel yang deklarasinya berada diluar fungsi main atau fungsi manapun sehingga  variabel itu bisa di akses oleh fungsi manapun dan 
+Variabel global adalah variabel yang deklarasinya berada di luar fungsi main atau fungsi manapun sehingga  variabel itu bisa di akses oleh fungsi manapun dan 
 dikenal oleh siapapun.
 
 
@@ -61,7 +58,20 @@ variabel konstanta harus langsung di inisialisasi/diisi data sesuai dengan tipe 
 - Numerik dan Karakter
 
 Tipe data adalah suatu pengenal yang merupakan bagian program yang paling penting karena tipe data mempengaruhi setiap intruksi yang akan dilaksanakan oleh komputer. 
-Misalnya 5 dibagi 2 saja bisa menghasilkan hasil yang berbeda tergantung tipe datanya. Kita juga harus mengetahui format specifier, apa itu format specifier? 
+Misalnya 5 dibagi 2 saja bisa menghasilkan hasil yang berbeda tergantung tipe datanya, mari kita coba cermati kode berikut:
+
+ ```C
+  int $count = 5 / 2;
+  printf("%i  ", $count);
+  //Output: 2
+    
+  float $count2 = 5 / 2;
+  printf("%f  ", $count2);
+  //Output: 2.000000
+  ```
+
+
+Kita juga harus mengetahui format specifier, apa itu format specifier? 
 
 Format specifier adalah sebuah kode yang digunakan untuk membaca variabel ketika akan dicetak. Format specifier biasanya diawali dengan menuliskan 
 karakter %(persen) untuk kemudian diikuti huruf sesuai tipe datanya. Tipe data dasar dalam bahasa C:
