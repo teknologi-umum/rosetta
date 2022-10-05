@@ -9,17 +9,23 @@ Pada bab ini akan membahas mengenai Variabel dan Tipe Data pada bahasa C.
 ## Variabel
 - Variabel
 
-Variabel adalah wadah yang digunakan untuk menampung data/value. Deklarasi variabel adalah sebuah perintah agar program menyediakan variabel yang akan kita pakai. Pendeklarasian variabel harus diawali dengan tipe data variabel. Namun untuk pembahasan tipe data akan dibahas pada bagian selanjutnya.
+Variabel adalah wadah yang digunakan untuk menampung data/value. Jika dianalogikan, variabel adalah wadah semacam gelas yang didalamnya terdapat air. Atau bisa juga, variabel adalah piring yang didalamnya merupakan makanan.
+
+Variabel adalah identitas, untuk menampung sebuah data/value yang diinginkan.
+
+Deklarasi variabel adalah sebuah perintah agar program menyediakan variabel yang akan kita pakai. 
 
 Berikut adalah aturan dalam penulisan variabel : **(Perlu Diingat)**
 
-a)	Boleh terdiri dari gabungan huruf dan angka dengan karakter pertama harus huruf.
+a)     Pendeklarasian variabel harus diawali dengan tipe data variabel (pembahasan tipe data akan dibahas pada bagian selanjutnya)
 
-b)	Bahasa C bersifat case sensitive, artinya huruf besar dan kecil dianggap berbeda. Jadi, antara NAMA, nama dan Nama itu dianggap berbeda.
+b)	Boleh terdiri dari gabungan huruf dan angka dengan karakter pertama harus huruf.
 
-c)	Tidak boleh mengandung spasi. Tidak Boleh mengandung simbol-simbol khusus, kecuali garis bawah (underscore).
+c)	Bahasa C bersifat case sensitive, artinya huruf besar dan kecil dianggap berbeda. Jadi, antara NAMA, nama dan Nama itu dianggap berbeda.
 
-d)	Yang termasuk simbol khusus yang tidak diperbolehan antara lain : !,@,#,$,%,^,&,*,(,),-,+,=.
+d)	Tidak boleh mengandung spasi. Tidak Boleh mengandung simbol-simbol khusus, kecuali garis bawah (underscore).
+
+e)	Yang termasuk simbol khusus yang tidak diperbolehan antara lain : !,@,#,$,%,^,&,*,(,),-,+,=.
 
 
 | Benar                    | Salah                  |
@@ -52,7 +58,7 @@ dikenal oleh siapapun.
 - Konstanta
 
 Konstanta adalah variabel yang isinya tetap/tidak dapat berubah-ubah. Konstanta tidak dapat dikenai assignment (datanya diisi lagi/diubah) dan saat pembuatan 
-variabel konstanta harus langsung di inisialisasi/diisi data sesuai dengan tipe data. 
+variabel konstanta harus langsung diinisialisasi/diisi data sesuai dengan tipe data. 
 
 ## Tipe Data
 - Numerik dan Karakter
