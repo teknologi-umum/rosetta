@@ -33,7 +33,7 @@ Terinspirasi oleh:
 - Haskell
   - [01. Pengantar Haskell](haskell/[01]-pengantar-haskell.md)
 - Assembly
-  - [01. Pengenalam Assembly](ASM/[01]-pengenalan-Assembly.md)
+  - [01. Pengenalan Assembly](ASM/[01]-pengenalan-Assembly.md)
 
 ## FAQ
 
