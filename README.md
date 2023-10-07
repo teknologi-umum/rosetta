@@ -32,6 +32,8 @@ Terinspirasi oleh:
   - [02. Variabel dan Tipe Data](C/[02]-variabel-dan-tipe-data.md)
 - Haskell
   - [01. Pengantar Haskell](haskell/[01]-pengantar-haskell.md)
+- Assembly
+  - [01. Pengenalam Assembly](ASM/[01]-pengenalan-Assembly.md)
 
 ## FAQ
 
