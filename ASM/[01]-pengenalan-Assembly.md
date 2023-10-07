@@ -25,7 +25,7 @@ Register adalah tempat penyimpanan CPU. Kegunaan register ini diberikan dari pen
 
 ## x86
 x86 merupakan contoh arsitektur CPU yang sangat terkenal. 
-Arsitektur ini bertipe CISC dan sudah berevolusi sebanyak 3 kali: x86-16 (16 bit era DOS), x86-32 (32 bit, bisa disebut juga x86 atau i386), dan yang terakhir x86-64 (64 bit bisa disebut juga x64)
+Arsitektur ini bertipe CISC dan sudah berevolusi sebanyak 3 kali: x86-16 (16 bit era DOS), x86-32 (32 bit, bisa disebut juga x86 atau i386), dan yang terakhir x86-64 (64 bit bisa disebut juga x64 atau amd64)
 
 x86-64 memiliki 16 General Purpose Register
 
