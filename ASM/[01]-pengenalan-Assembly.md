@@ -19,7 +19,7 @@ Bahasa dapat juga digunakan untuk menganalisis malware, membongkar sebuah progra
 
 Ada dua model CPU, yaitu CISC dan RISC.
 CISC singkatan dari Complex-Instruction-Set-Computer yang berarti satu instruksi bisa melakukan beberapa operasi.
-RISC singkatan dari Reduced-Instruction-Set-Computer dengan instruksi yang lebih sederhana dengan sedikit operasi namun tidak mengesampingkan kecepatan.
+RISC singkatan dari Reduced-Instruction-Set-Computer dengan instruksi lebih sederhana dengan sedikit operasi, namun tetap mempertahankan performa kecepatan eksekusi yang baik.
 
 Register adalah tempat penyimpanan CPU. Kegunaan register ini diberikan dari penamaannya serta bagaimana ABI yang diterapkan.
 
@@ -52,6 +52,15 @@ Sebagai contoh, Windows menggunakan x64 ABI.
 RAX digunakan untuk menyimpan nilai kembalian fungsi. `RCX` menyimpan argumen pertama, `RDX` menyimpan argumen kedua, `R8` menyimpan argumen ketiga, `R9` menyimpan argumen keempat.
 
 Kita bisa lihat di sini https://godbolt.org/z/vjx38hcT8.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+  printf("%lld", -1ll, -2ll, -3ll);
+}
+```
 
 ```asm
 lea     rcx, [rip + .L.str]
