@@ -51,4 +51,10 @@
       "url": "main/haskell/[01]-pengantar-haskell.md"
     }
   ]
+  "Assembly": [
+    {
+      "id": 1,
+      "url": "main/ASM/[01]-pengenalan-Assembly.md"
+    }
+  ]
 }
