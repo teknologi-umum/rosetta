@@ -56,5 +56,11 @@
       "id": 1,
       "url": "main/ASM/[01]-pengenalan-Assembly.md"
     }
+  ],
+  "go": [
+    {
+      "id": 1,
+      "url": "main/go/[01]-pengenalan-go.md"
+    }
   ]
 }
