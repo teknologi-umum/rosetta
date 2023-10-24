@@ -102,7 +102,7 @@ go run main.go
 4
 ```
 
-Mengapa 5 tidak muncul? karena 5 tidak dibawah 5, simple, jika ingin angka 5 muncul, maka ganti ```i < angka``` menjadi ```i <= angka```.
+Mengapa 5 tidak muncul? karena 5 tidak dibawah 5, Simple, jika ingin angka 5 muncul, maka ganti ```i < angka``` menjadi ```i <= angka```.
 
 
 <li>Function</li>
@@ -140,7 +140,7 @@ Kita sudah menulis dan mencoba kode Go dasar diatas, maka izinkan saya menjelask
 <li>package main</li>
 
 Pada kode diatas selalu , menuliskan ```package main```, mengapa?
-Karena simplenya Go, akan menjalankan file yang package nya main, atau yang bernama main.
+Karena simplenya Dalam bahasa pemrograman Go (Golang), penamaan paket sebagai "main" memiliki makna khusus. Paket dengan nama "main" digunakan sebagai paket utama atau entry point program.
 
 <li>import "fmt"</li>
 
@@ -148,5 +148,4 @@ keyword ```import``` untuk mengimport package std maupun luar.
 
 <li>func main()</li>
 
-Sebenernya keyword ```func``` adalah untuk membuat function, namun mengapa namanya main?<br>
-ya, Go akan menjalankan funtion main pertama kali saat program dijalankan.
+Di Go (Golang), setiap program harus memiliki fungsi main sebagai titik masuk utama atau entry point dari program. Hal ini wajib ada karena main adalah fungsi yang akan dieksekusi pertama kali ketika program dijalankan
