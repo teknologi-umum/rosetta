@@ -148,4 +148,4 @@ keyword ```import``` untuk mengimport package std maupun luar.
 
 <li>func main()</li>
 
-Di Go (Golang), setiap program harus memiliki fungsi main sebagai titik masuk utama atau entry point dari program. Hal ini wajib ada karena main adalah fungsi yang akan dieksekusi pertama kali ketika program dijalankan
+Di Go (Golang), setiap program harus memiliki fungsi ```main``` sebagai titik masuk utama atau entry point dari program. Hal ini wajib ada karena ```main``` adalah fungsi yang akan dieksekusi pertama kali ketika program dijalankan
