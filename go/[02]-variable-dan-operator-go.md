@@ -35,6 +35,8 @@ nama := "Refaldy"
 <li>uint: Digunakan untuk bilangan bulat tanpa tanda (non-negatif), misalnya uint dan uint32.</li>
 <li>float32 dan float64: Digunakan untuk bilangan pecahan (floating-point numbers).</li>
 
+Lebih dalam tentang integer bisa scroll dulu ya 😊😊
+
 Contoh: 
 ```go
 var umur int
@@ -122,16 +124,6 @@ type Bentuk interface {
 }
 ```
 
-#### 10. Tipe Data Pointer
-<li>pointer: Digunakan untuk menyimpan alamat memori variabel lain.</li>
-Contoh:
-
-```go
-var x int
-var ptr *int
-ptr = &x
-```
-
 ## Zero Values
 Setiap variabel di Go memiliki nilai awal atau "zero value" yang terkait dengan tipe datanya. Contoh "zero values" yang umum:
 
@@ -151,7 +143,7 @@ penjumlahan := a + b
 pengurangan := a - b
 perkalian := a * b
 pembagian := a / b
-sisa := a % b
+sisa := a % b //disebut juga sebagai modulo atau modulus
 ```
 ### Operator Perbandingan
 ```go
@@ -174,7 +166,10 @@ logikaNot := !salah
 ```
 
 ## Pointer Di Golang
-Pointer adalah variabel yang menyimpan alamat memori dari variabel lain. Mereka digunakan untuk mengakses dan memanipulasi variabel asli. Contoh penggunaan pointer:
+Pointer di dalam bahasa pemrograman Go (atau biasa disebut Golang) mengacu pada variabel yang digunakan untuk menyimpan alamat memori dari nilai lainnya. Pointer digunakan untuk mengakses dan mengubah data yang tersimpan di lokasi memori yang sebenarnya, bukan hanya nilai-nilai mereka.
+
+Anda dapat membuat pointer dalam Go menggunakan operator & (ampersand) untuk mengambil alamat memori dari suatu nilai, dan operator * (bintang) untuk mengakses nilai yang disimpan di alamat yang diacu oleh pointer tersebut.
+
 
 ```go
 a := 15
@@ -182,6 +177,31 @@ var pointerA *int
 pointerA = &a
 *pointerA = 20 // Mengubah nilai a menjadi 20
 ```
+
+Lebih Lengkap:
+```go
+package main
+
+import "fmt"
+
+func main() {
+    // Mendeklarasikan variabel
+    var x int = 42
+
+    // Membuat pointer yang menunjuk ke variabel x
+    var p *int = &x
+
+    // Mengakses nilai melalui pointer
+    fmt.Println("Nilai x:", x)
+    fmt.Println("Nilai melalui pointer p:", *p)
+
+    // Mengubah nilai menggunakan pointer
+    *p = 10
+    fmt.Println("Nilai x setelah diubah melalui pointer:", x)
+}
+```
+Pada contoh di atas, `p` adalah pointer yang menunjuk ke variabel `x`, dan kita menggunakan `*p` untuk mengakses nilai `x` melalui pointer. Kemudian, kita dapat mengubah nilai `x` dengan mengubah nilai yang ada di alamat yang diacu oleh pointer tersebut.
+
 
 ## Iota Itu Apa?
 iota adalah konstanta yang digunakan dalam konstanta enumerasi. Ini secara otomatis diinkrementasi pada setiap konstanta berikutnya dalam blok konstanta.
@@ -198,3 +218,27 @@ const (
 )
 ```
 Dalam contoh di atas, iota dimulai dari 0 dan diinkrementasi setiap kali ada konstanta baru.
+
+## Integer (Lebih Dalam)
+Ternyata tipe data `int` ga cuman int, tapi ada juga `int8` `int16` `int32` `int64`
+
+Tipe data int, int8, int16, int32, dan int64 adalah tipe data bilangan (integer) dalam bahasa pemrograman Go, namun, perbedaan utama antara mereka adalah ukuran dan kisaran nilai yang dapat mereka wakili. Mari kita jelaskan masing-masing tipe data ini:
+
+
+<li><b>int</b>: Ini adalah tipe data bilangan bulat yang bergantung pada platform, yang berarti ukuran dan kisaran nilainya dapat berbeda pada sistem yang berbeda. Biasanya, pada sistem 32-bit, tipe data int memiliki ukuran 32 bit dan dapat merepresentasikan nilai antara -2147483648 hingga 2147483647. Pada sistem 64-bit, tipe data int memiliki ukuran 64 bit dan dapat merepresentasikan nilai antara -9223372036854775808 hingga 9223372036854775807.
+</li>
+<br>
+<li><b>int8</b>: Tipe data int8 memiliki ukuran 8 bit atau 1 byte. Ini dapat merepresentasikan nilai antara -128 hingga 127.
+
+</li>
+<br>
+<li>
+<b>int16</b>: Tipe data int16 memiliki ukuran 16 bit atau 2 byte. Ini dapat merepresentasikan nilai antara -32768 hingga 32767.
+</li>
+<br>
+<li>
+<b>int32</b>: Tipe data int32 memiliki ukuran 32 bit atau 4 byte. Ini dapat merepresentasikan nilai antara -2147483648 hingga 2147483647.
+</li>
+<br>
+<li><b>int64</b>: Tipe data int64 memiliki ukuran 64 bit atau 8 byte. Ini dapat merepresentasikan nilai antara -9223372036854775808 hingga 9223372036854775807.
+</li>
