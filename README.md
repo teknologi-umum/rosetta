@@ -34,6 +34,9 @@ Terinspirasi oleh:
   - [01. Pengantar Haskell](haskell/[01]-pengantar-haskell.md)
 - Assembly
   - [01. Pengenalan Assembly](ASM/[01]-pengenalan-Assembly.md)
+- Go (Golang)
+  - [01. Pengenalan Go](go/[01]-pengenalan-go)
+  - [02. Variable Dan Operator Di Golang](go/[02]-variable-dan-operator-go)
 
 ## FAQ
 
