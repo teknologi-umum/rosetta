@@ -5,7 +5,7 @@ update: -
 ---
 
 ## Variabel Dalam Golang
-Variabel digunakan untuk menyimpan data dalam Go. Go memiliki aturan ketat tentang deklarasi dan penggunaan variabel. Berikut adalah cara mendeklarasikan variabel dalam Go:
+Variabel pada Go digunakan untuk menyimpan data. Go memiliki aturan ketat tentang deklarasi dan penggunaan variabel. Berikut adalah cara mendeklarasikan variabel dalam Go:
 
 ```go 
 var namaVariabel tipeData
@@ -31,9 +31,9 @@ nama := "Refaldy"
 ```
 ## Tipe Data Di Go
 #### 1. Tipe Data Angka (Numerik)
-<li>int: Digunakan untuk menyimpan nilai bilangan bulat, misalnya int dan int64.</li>
-<li>uint: Digunakan untuk bilangan bulat tanpa tanda (non-negatif), misalnya uint dan uint32.</li>
-<li>float32 dan float64: Digunakan untuk bilangan pecahan (floating-point numbers).</li>
+<li><code>int</code> : Digunakan untuk menyimpan nilai bilangan bulat, misalnya <code>int</code> dan <code>int64</code>.</li>
+<li> <code>uint</code>: Digunakan untuk bilangan bulat tanpa tanda (non-negatif), misalnya <code>uint</code> dan <code>uint32</code>.</li>
+<li> <code>float32</code> dan <code>float64</code>: Digunakan untuk bilangan pecahan (floating-point numbers).</li>
 
 Lebih dalam tentang integer bisa scroll dulu ya 😊😊
 
@@ -44,7 +44,7 @@ var beratBadan float64
 ```
 
 #### 2. Tipe Data String
-<li>string: Digunakan untuk menyimpan teks atau karakter.</li>
+<li><code>string</code>: Digunakan untuk menyimpan teks atau karakter.</li>
 Contoh:
 
 ```go
@@ -53,7 +53,7 @@ var email string
 ```
 
 #### 3. Tipe Data Boolean
-<li>bool: Hanya memiliki dua nilai mungkin, yaitu true dan false.</li>
+<li> <code>bool</code>: Hanya memiliki dua nilai mungkin, yaitu <code>true</code> dan <code>false</code>.</li>
 Contoh
 
 ```go
@@ -63,8 +63,8 @@ isAdmin = false
 ```
 
 #### 4. Tipe Data Karakter (Character Type)
-<li>byte: Digunakan untuk menyimpan data biner atau karakter tunggal.</li>
-<li>rune: Digunakan untuk menyimpan karakter Unicode.</li>
+<li> <code> byte </code>: Digunakan untuk menyimpan data biner atau karakter tunggal.</li>
+<li><code>rune</code>: Digunakan untuk menyimpan karakter <a href="https://en.wikipedia.org/wiki/Unicode">Unicode</a>.</li>
 
 Contoh:
 ```go
@@ -73,7 +73,7 @@ var simbol rune
 ```
 
 #### 5. Tipe Data Array
-<li>array: Digunakan untuk menyimpan kumpulan elemen dengan tipe data yang sama dan ukuran tetap.</li>
+<li> <code>array</code>: Digunakan untuk menyimpan kumpulan elemen dengan tipe data yang sama dan ukuran tetap.</li>
 
 Contoh:
 ```go
@@ -81,7 +81,7 @@ var angka [5]int
 ```
 
 #### 6. Tipe Data Slice
-<li>slice: Digunakan untuk menyimpan potongan dari array atau slice lain. Tidak memiliki ukuran tetap.
+<li><code>slice</code>: Digunakan untuk menyimpan potongan dari array atau slice lain. Tidak memiliki ukuran tetap.
 </li>
 
 Contoh: 
@@ -96,7 +96,7 @@ sliceData := data[1:2] //[2]
 ```
 
 #### 7. Tipe Data Map
-<li>map: Digunakan untuk menyimpan pasangan key-value, mirip dengan kamus.</li>
+<li> <code>map</code>: Digunakan untuk menyimpan pasangan key-value, mirip dengan kamus.</li>
 
 Contoh:
 ```go
@@ -104,7 +104,7 @@ nilai := map[string]int{"Matematika": 90, "Bahasa": 85}
 ```
 
 #### 8. Tipe Data Struct
-<li>struct: Digunakan untuk mendefinisikan tipe data yang dapat memiliki beberapa bidang (fields) dengan tipe data yang berbeda.</li>
+<li> <code>struct</code>: Digunakan untuk mendefinisikan tipe data yang dapat memiliki beberapa bidang (fields) dengan tipe data yang berbeda.</li>
 
 Contoh: 
 ```go
@@ -115,7 +115,7 @@ type Mahasiswa struct {
 ```
 
 #### 9. Tipe Data Interface
-<li>interface: Digunakan untuk mendefinisikan kontrak antara tipe data, memungkinkan polimorfisme.</li>
+<li> <code>interface</code>: Digunakan untuk mendefinisikan kontrak antara tipe data, memungkinkan polimorfisme.</li>
 
 Contoh:
 ```go
@@ -127,10 +127,10 @@ type Bentuk interface {
 ## Zero Values
 Setiap variabel di Go memiliki nilai awal atau "zero value" yang terkait dengan tipe datanya. Contoh "zero values" yang umum:
 
-<li><b>int</b> memiliki zero value 0.</li>
-<li><b>float64</b> memiliki zero value 0.0.</li>
-<li><b>bool</b> memiliki zero value false.</li>
-<li><b>string</b> memiliki zero value "" (string kosong).</li>
+<li><b>int</b> memiliki zero value <code>0</code></li>
+<li><b>float64</b> memiliki zero value <code>0.0</code>.</li>
+<li><b>bool</b> memiliki zero value <code>false</code>.</li>
+<li><b>string</b> memiliki zero value <code>""</code> (string kosong).</li>
 
 ## Operator Di Go
 Go mendukung berbagai operator aritmatika, perbandingan, logika, dan lainnya. Beberapa contoh operator yang umum digunakan:
@@ -150,7 +150,7 @@ sisa := a % b //disebut juga sebagai modulo atau modulus
 a := 10
 b := 5
 samaDengan := a == b
-tidakSama := a != b
+tidakSamaDengan := a != b
 lebihBesar := a > b
 kurangDari := a < b
 lebihBesarSamaDengan := a >= b
@@ -168,7 +168,7 @@ logikaNot := !salah
 ## Pointer Di Golang
 Pointer di dalam bahasa pemrograman Go (atau biasa disebut Golang) mengacu pada variabel yang digunakan untuk menyimpan alamat memori dari nilai lainnya. Pointer digunakan untuk mengakses dan mengubah data yang tersimpan di lokasi memori yang sebenarnya, bukan hanya nilai-nilai mereka.
 
-Anda dapat membuat pointer dalam Go menggunakan operator & (ampersand) untuk mengambil alamat memori dari suatu nilai, dan operator * (bintang) untuk mengakses nilai yang disimpan di alamat yang diacu oleh pointer tersebut.
+Anda dapat membuat pointer dalam Go menggunakan operator `&` (ampersand) untuk mengambil alamat memori dari suatu nilai, dan operator `*` (bintang) untuk mengakses nilai yang disimpan di alamat yang diacu oleh pointer tersebut.
 
 
 ```go
@@ -204,7 +204,7 @@ Pada contoh di atas, `p` adalah pointer yang menunjuk ke variabel `x`, dan kita 
 
 
 ## Iota Itu Apa?
-iota adalah konstanta yang digunakan dalam konstanta enumerasi. Ini secara otomatis diinkrementasi pada setiap konstanta berikutnya dalam blok konstanta.
+`iota` adalah konstanta yang digunakan dalam konstanta enumerasi. Ini secara otomatis diinkrementasi pada setiap konstanta berikutnya dalam blok konstanta.
 
 ```go
 const (
@@ -217,28 +217,28 @@ const (
     Minggu
 )
 ```
-Dalam contoh di atas, iota dimulai dari 0 dan diinkrementasi setiap kali ada konstanta baru.
+Dalam contoh di atas, `iota` dimulai dari 0 dan diinkrementasi setiap kali ada konstanta baru.
 
 ## Integer (Lebih Dalam)
 Ternyata tipe data `int` ga cuman int, tapi ada juga `int8` `int16` `int32` `int64`
 
-Tipe data int, int8, int16, int32, dan int64 adalah tipe data bilangan (integer) dalam bahasa pemrograman Go, namun, perbedaan utama antara mereka adalah ukuran dan kisaran nilai yang dapat mereka wakili. Mari kita jelaskan masing-masing tipe data ini:
+Tipe data `int`, `int8`, `int16`, `int32`, dan `int64` adalah tipe data bilangan (integer) dalam bahasa pemrograman Go, namun, perbedaan utama antara mereka adalah ukuran dan kisaran nilai yang dapat mereka wakili. Mari kita jelaskan masing-masing tipe data ini:
 
 
-<li><b>int</b>: Ini adalah tipe data bilangan bulat yang bergantung pada platform, yang berarti ukuran dan kisaran nilainya dapat berbeda pada sistem yang berbeda. Biasanya, pada sistem 32-bit, tipe data int memiliki ukuran 32 bit dan dapat merepresentasikan nilai antara -2147483648 hingga 2147483647. Pada sistem 64-bit, tipe data int memiliki ukuran 64 bit dan dapat merepresentasikan nilai antara -9223372036854775808 hingga 9223372036854775807.
+<li><code>int</code>: Ini adalah tipe data bilangan bulat yang bergantung pada platform, yang berarti ukuran dan kisaran nilainya dapat berbeda pada sistem yang berbeda. Biasanya, pada sistem <code>32-bit</code>, tipe data <code>int</code> memiliki ukuran <code>32 bit</code> dan dapat merepresentasikan nilai antara <code>-2147483648</code> hingga <code>2147483647</code>. Pada sistem <code>64-bit</code>, tipe data <code>int</code> memiliki ukuran <code>64 bit</code> dan dapat merepresentasikan nilai antara <code>-9223372036854775808</code> hingga <code>9223372036854775807</code>.
 </li>
 <br>
-<li><b>int8</b>: Tipe data int8 memiliki ukuran 8 bit atau 1 byte. Ini dapat merepresentasikan nilai antara -128 hingga 127.
+<li><code>int8</code>: Tipe data <code>int8</code> memiliki ukuran 8 bit atau 1 byte. Ini dapat merepresentasikan nilai antara <code>-128</code> hingga <code>127</code>.
 
 </li>
 <br>
 <li>
-<b>int16</b>: Tipe data int16 memiliki ukuran 16 bit atau 2 byte. Ini dapat merepresentasikan nilai antara -32768 hingga 32767.
+<code>int16</code>: Tipe data <code>int16</code> memiliki ukuran 16 bit atau 2 byte. Ini dapat merepresentasikan nilai antara <code>-32768</code> hingga <code>32767</code>.
 </li>
 <br>
 <li>
-<b>int32</b>: Tipe data int32 memiliki ukuran 32 bit atau 4 byte. Ini dapat merepresentasikan nilai antara -2147483648 hingga 2147483647.
+<code>int32</code>: Tipe data <code>int32</code> memiliki ukuran 32 bit atau 4 byte. Ini dapat merepresentasikan nilai antara <code>-2147483648</code> hingga <code>2147483647</code>.
 </li>
 <br>
-<li><b>int64</b>: Tipe data int64 memiliki ukuran 64 bit atau 8 byte. Ini dapat merepresentasikan nilai antara -9223372036854775808 hingga 9223372036854775807.
+<li><code>int64</code>: Tipe data <code>int64</code> memiliki ukuran 64 bit atau 8 byte. Ini dapat merepresentasikan nilai antara <code>-9223372036854775808</code> hingga <code>9223372036854775807</code>.
 </li>
