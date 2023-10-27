@@ -63,7 +63,7 @@ isAdmin = false
 ```
 
 #### 4. Tipe Data Karakter (Character Type)
-<li> <code> byte </code>: Digunakan untuk menyimpan data biner atau karakter tunggal.</li>
+<li> <code>byte</code>: Digunakan untuk menyimpan data biner atau karakter tunggal.</li>
 <li><code>rune</code>: Digunakan untuk menyimpan karakter <a href="https://en.wikipedia.org/wiki/Unicode">Unicode</a>.</li>
 
 Contoh:
