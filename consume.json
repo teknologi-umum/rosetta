@@ -65,6 +65,10 @@
     {
       "id": 2,
       "url": "main/go/[02]-variable-dan-operator-go.md"
+    },
+    {
+      "id": 3,
+      "url": "main/go/[03]-statement-if-else-go.md"
     }
   ]
 }
