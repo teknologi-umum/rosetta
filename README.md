@@ -36,8 +36,8 @@ Terinspirasi oleh:
   - [01. Pengenalan Assembly](ASM/[01]-pengenalan-Assembly.md)
 - Go (Golang)
   - [01. Pengenalan Go](go/[01]-pengenalan-go.md)
-  - [02. Variable Dan Operator Di Go](go/[02]-variable-dan-operator-go.md)
-  - [03. Conditional Statement Di Go](go/[03]-statement-if-else-go.md)
+  - [02. Variable Dan Operator di Go](go/[02]-variable-dan-operator-go.md)
+  - [03. Conditional Statement di Go](go/[03]-conditional-statement-go.md)
 ## FAQ
 
 ### Bagaimana jika saya ingin menambahkan sesuatu ?
